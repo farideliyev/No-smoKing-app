@@ -1,0 +1,34 @@
+.section-header {
+    padding: 0 30px;
+    flex-basis: 20%;
+}
+
+.section-header .section-inner{
+    max-width: 1440px;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.section-header__logo a img{
+    max-width: 50px;
+
+}
+.section-header__btn-group {
+    display: flex;
+    margin-left: auto;
+}
+
+
+.section-header__btn-group .register{
+    margin-left: 10px;
+}
+
+.section-header__btn-group .register .ant-btn-primary{
+    background-color: #46d12e;
+    border-color: #46d12e ;
+}
+
+.section-header__btn-group .register .ant-btn-primary:hover {
+    opacity: 0.8;
+}
