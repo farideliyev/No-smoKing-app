@@ -1,0 +1,52 @@
+.userPage {
+    display: flex;
+    height: 100vh;
+}
+
+.userPage__links{
+    background-color: grey;
+    flex-basis: 20%;
+    padding: 15px;
+    margin-right: 100px;
+
+}
+
+.userPage__links a {
+    display: block;
+    color: whitesmoke;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.userPage__links a:hover {
+    color: cyan;
+}
+
+
+.userPage__routes {
+    flex-basis: 80%;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.userPage__routes input[type='text'] {
+    font-size: 15px;
+}
+.iconSave {
+    color: #46d12e;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+
+
+}
+.iconEdit {
+    color: cornflowerblue;
+    cursor: pointer;
+    width: 300px;
+    margin-left: 10px;
+
+}
+

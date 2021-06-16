@@ -1,13 +1,11 @@
 import React from "react";
 import  "./assets/fbConfig";
-// import  "./assets/fbUiConfig";
 import "./App.css"
 import Header from "./components/Header";
-import {BrowserRouter}from "react-router-dom";
-import Route from "react-router-dom/es/Route";
+import {BrowserRouter, Route}from "react-router-dom";
 import Login from "./components/Login";
 import Registration from "./components/Registration";
-import UserPage from "./components/Users/UserPage";
+import UserPageContainer from "./components/Users/UserPageContainer";
 
 const App = () => {
 
@@ -16,7 +14,7 @@ const App = () => {
         <BrowserRouter>
             <Route path="/login" component={Login}/>
             <Route path="/registration" component={Registration}/>
-            <Route path="/userpage" component={UserPage}/>
+            <Route  path="/userpage/:userId?" render={()=><UserPageContainer/>}/>
         </BrowserRouter>
 
         </>
